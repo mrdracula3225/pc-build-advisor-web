@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PC Build Advisor</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+
+</head>
+<body>
+    <div class="container">
+        <h1>🖥️ PC Build Advisor</h1>
+        
+        <form id="buildForm">
+            <label for="budget">💰 Budget (₹):</label>
+            <input type="number" id="budget" min="5000" max="200000" required>
+            
+            <label for="useCase">🎯 Use Case:</label>
+            <select id="useCase" required>
+                <option value="1">Gaming</option>
+                <option value="2">Video Editing</option>
+                <option value="3">Casual Use</option>
+            </select>
+            
+            <div id="platformSection" class="hidden">
+                <label for="platform">💻 Platform:</label>
+                <select id="platform">
+                    <option value="1">Intel</option>
+                    <option value="2">AMD</option>
+                </select>
+            </div>
+            
+            <button type="submit">Get My Build</button>
+        </form>
+        
+        <div id="results" class="hidden">
+            <h2>🧰 Recommended Build</h2>
+            <div id="buildDetails"></div>
+            <p id="totalCost"></p>
+            <p id="budgetStatus"></p>
+        </div>
+    </div>
+    
+    <script src="/static/script.js"></script>
+</body>
+</html>
