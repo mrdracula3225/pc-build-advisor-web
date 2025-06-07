@@ -37,10 +37,11 @@ A web-based PC build recommendation tool that helps users find the best custom P
 Here’s how the PC Build Advisor Web looks in action:
 
 #### 🔍 Home Page
-![Homepage Screenshot](https://raw.githubusercontent.com/mrdracula3225/pc-build-advisor-web/main/static/screenshots/homepage.png)
+![Home page](assets/homepage.png)
+
 
 #### 🧮 Build Recommendation
-![Build Screenshot](https://raw.githubusercontent.com/mrdracula3225/pc-build-advisor-web/main/static/screenshots/build.png)
+![build](assets/build.png)
 
 
 
@@ -63,12 +64,13 @@ Follow these steps to run the project locally:
     pip install -r requirements.txt
 
 4. **Run the application:**
-  ```bash
+   ```bash
     python app.py
 
 5. **Open your browser and visit:**
-  ```bash
+   ```bash
     http://localhost:5000
+
 
 ✅ Deployed Version: https://pc-build-advisor-web.onrender.com
 
