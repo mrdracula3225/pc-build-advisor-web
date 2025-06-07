@@ -77,18 +77,18 @@ Follow these steps to run the project locally:
 
 ## 📂 Folder Structure
 
-pc-build-advisor-web/
-│
-├── static/ # Static files like CSS, JS
-│ └── style.css # Main CSS file
-│
-├── templates/ # HTML templates
-│ └── index.html # Main page
-│
-├── app.py # Main Flask application
-├── builds_data.py # Data logic for PC builds
-├── requirements.txt # Project dependencies
-├── README.md # Project documentation
+    ```pc-build-advisor-web/
+    │
+    ├── static/ # Static files like CSS, JS
+    │ └── style.css # Main CSS file
+    │
+    ├── templates/ # HTML templates
+    │ └── index.html # Main page
+    │
+    ├── app.py # Main Flask application
+    ├── builds_data.py # Data logic for PC builds
+    ├── requirements.txt # Project dependencies
+    ├── README.md # Project documentation
 
 
 ## 🙋‍♂️ Author
