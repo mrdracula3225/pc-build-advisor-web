@@ -37,11 +37,11 @@ A web-based PC build recommendation tool that helps users find the best custom P
 Here’s how the PC Build Advisor Web looks in action:
 
 #### 🔍 Home Page
-![Home page](assets/homepage.png)
+![Home page](assests/homepage.png)
 
 
 #### 🧮 Build Recommendation
-![build](assets/build.png)
+![build](assests/build.png)
 
 
 
