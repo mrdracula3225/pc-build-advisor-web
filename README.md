@@ -5,15 +5,6 @@
 A web-based PC build recommendation tool that helps users find the best custom PC configurations based on their **budget**, **use case**, and **preferred platform** (Intel or AMD). This project is the enhanced version of my original Code in Place Python console app — now with an intuitive web interface and hosted online using **Render**.
 
 
-## ✨ Features
-
-- 🔍 Input your budget, use case (Gaming, Editing, Casual), and platform (Intel or AMD)
-- 💡 Get intelligent PC part recommendations tailored to your needs
-- 📊 See estimated total cost with budget fit indicator
-- 💻 Simple, clean, and mobile-responsive web UI
-- 🌐 Hosted online using Render for instant access
-
-
 ## 🛠️ Tech Stack
 
 - **Frontend**: HTML, CSS (with improvements), JavaScript
@@ -21,15 +12,30 @@ A web-based PC build recommendation tool that helps users find the best custom P
 - **Hosting**: Render
 - **Version Control**: Git & GitHub
 
-    
-### 🚀 Features
 
-- 💰 **Budget-Based Recommendations** – Enter your budget and get optimized builds.
-- 🖥️ **Use Case Selection** – Tailor your build for gaming, editing, or casual use.
-- ⚙️ **Platform Choice** – Choose between Intel or AMD platforms (when applicable).
-- 📱 **Mobile-Friendly UI** – Clean and responsive interface for all devices.
-- 🔧 **Python + Flask Backend** – Efficient, scalable, and easy to deploy.
-- 🎯 **Accurate Matching** – Provides best parts combo without exceeding your budget.
+## ✨ Key Features
+
+### 🎯 Core Functionality
+- 🔍 **Smart Recommendations** - Input budget, use case (Gaming/Editing/Casual), and platform (Intel/AMD) to get tailored builds
+- 💰 **Budget Optimization** - Algorithm finds the best parts combination without exceeding your specified budget
+- ⚙️ **Platform Flexibility** - Choose between Intel or AMD ecosystems with compatible part selections
+
+### 🖥️ User Experience
+- 📱 **Mobile-Friendly Interface** - Clean, responsive design works on all devices
+- 📊 **Budget Fit Indicator** - Visual feedback showing how well your build matches your budget
+- 🎮 **Use-Case Profiles** - Specialized configurations for Gaming, Content Creation, or Everyday Use
+
+### ⚙️ Technical Advantages
+- 🐍 **Python-Powered** - Flask backend ensures fast, reliable recommendations
+- 🌐 **Cloud Hosted** - Instant access via Render with 24/7 availability
+- 🔄 **Easy Updates** - Modular architecture allows simple parts database updates
+
+## 🌟 Future Roadmap
+- [ ] Add part compatibility checking
+- [ ] Add benchmark performance estimates
+- [ ] User account system to save builds
+- [ ] Automatic price updates from retailers
+- [ ] Dark mode UI option
 
 
 ### 📸 Screenshots
